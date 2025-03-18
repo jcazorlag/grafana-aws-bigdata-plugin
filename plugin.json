@@ -10,7 +10,7 @@
     "keywords": ["aws", "bigdata", "glue", "athena"],
     "version": "1.0.0"
   },
- inha "dependencies": {
+  "dependencies": {
     "grafanaDependency": ">=9.0.0"
   }
 }
