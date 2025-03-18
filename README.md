@@ -15,9 +15,16 @@ Este es un plugin personalizado para Grafana que proporciona visualizaciones par
 - npm (>= 8.x)
 - Grafana (>= 9.0.0)
 
-## Instalación
-
-1. **Clona el repositorio**:
-   ```bash
-   git clone <repository-url>
-   cd grafana-aws-bigdata-plugin
+## Estructura
+```
+grafana-aws-bigdata-plugin/
+├── src/
+│   ├── panel.js       # Lógica de visualización
+│   ├── module.js      # Punto de entrada y fetchData
+│   └── styles.css     # Estilos
+├── dist/              # Carpeta generada
+├── package.json       # Dependencias y scripts
+├── plugin.json        # Metadatos del plugin
+├── webpack.config.js  # Configuración de Webpack
+└── README.md          # Este archivo
+```
