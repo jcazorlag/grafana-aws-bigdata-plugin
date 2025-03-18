@@ -1,14 +1,24 @@
 {
   "name": "grafana-aws-bigdata-plugin",
   "version": "1.0.0",
-  "description": "AWS Big Data Dashboard Plugin for Grafana",
+  "description": "A Grafana plugin for visualizing AWS Big Data services",
   "main": "dist/module.js",
   "scripts": {
     "build": "webpack --mode production",
-    "dev": "webpack --mode development --watch"
+    "dev": "webpack --mode development --watch",
+    "publish-package": "npm run build && npm publish"
   },
-  "author": "Your Name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/grafana-aws-bigdata-plugin.git"
+  },
+  "keywords": ["grafana", "plugin", "aws", "bigdata", "glue", "athena"],
+  "author": "Jose Cazorla",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tu-usuario/grafana-aws-bigdata-plugin/issues"
+  },
+  "homepage": "https://github.com/tu-usuario/grafana-aws-bigdata-plugin",
   "dependencies": {
     "d3": "^7.8.5"
   },
