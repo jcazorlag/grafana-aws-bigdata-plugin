@@ -1,1 +1,16 @@
-
+{
+  "type": "panel",
+  "name": "AWS Big Data Dashboard",
+  "id": "aws-bigdata-panel",
+  "info": {
+    "description": "Visualizations for AWS Big Data Services",
+    "author": {
+      "name": "Your Name"
+    },
+    "keywords": ["aws", "bigdata", "glue", "athena"],
+    "version": "1.0.0"
+  },
+ inha "dependencies": {
+    "grafanaDependency": ">=9.0.0"
+  }
+}
